@@ -47,3 +47,21 @@
     }
   }
 }
+
+#livros {
+  .livros {
+    &--tittle {
+      @include dis;
+      h1 {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 82px;
+        color: #FFFFFF;
+      }
+    }
+    &--block {
+      @include dis;
+      padding: 50px 50px;
+    }
+  }
+}
