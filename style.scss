@@ -1,2 +1,13 @@
 @import "global";
 
+#header {
+  .header {
+    @include dis();
+    a {
+      font-family: 'Poppins',sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      color: #FFFFFF;
+    }
+  }
+}
