@@ -13,6 +13,7 @@ a {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(0deg, rgba(135, 92, 170, 0.4), rgba(135, 92, 170, 0.4)), rgba(243, 130, 216, 0.5);
 }
 
@@ -26,6 +27,40 @@ body {
   font-weight: 600;
   font-size: 36px;
   color: #FFFFFF;
+}
+
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero--text {
+  width: 662px;
+}
+#hero .hero--text h1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+#hero .hero--text p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding: 40px 0;
+}
+#hero .hero--text button {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  padding: 12px 30px;
+  color: #FFFFFF;
+  background: linear-gradient(0deg, rgba(135, 92, 170, 0.45), rgba(135, 92, 170, 0.45)), rgba(243, 130, 216, 0.5);
+  mix-blend-mode: lighten;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
